@@ -205,37 +205,37 @@ func flood() {
 			s.Close()
 		}
 		//fmt.Println("Threads@", threads, " Hitting Target -->", url)// For those who like share to skid.
-	}
-}
+		
 
-func main() {
-    fmt.Println("                                                                                         ")
-    fmt.Println("                                                                                         ")
-    fmt.Println("   _______________                                                           _______________ ")
-    fmt.Println("  |               |                                                         |               |")
-    fmt.Println("  | Jai Shree Ram |  =====================================================  | Jai Shree Ram |")
-    fmt.Println("  | Jai Shree Ram |  | ================================================= |  | Jai Shree Ram |")
-    fmt.Println("  | Jai Shree Ram |  | |                                               | |  | Jai Shree Ram |")
-    fmt.Println("  | Jai Shree Ram |  | |     █████████████████████████████████████     | |  | Jai Shree Ram |")
-    fmt.Println("  | Jai Shree Ram |  | |     █▄─██─▄█▄─▄▄▀█▄─▄▄▀█▄─▄▄▀█─▄▄─█─▄▄▄▄█     | |  | Jai Shree Ram |")
-    fmt.Println("  | Jai Shree Ram |  | |     ██─██─███─▄─▄██─██─██─██─█─██─█▄▄▄▄─█     | |  | Jai Shree Ram |")
-    fmt.Println("  | Jai Shree Ram |  | |     ▀▀▄▄▄▄▀▀▄▄▀▄▄▀▄▄▄▄▀▀▄▄▄▄▀▀▄▄▄▄▀▄▄▄▄▄▀     | |  | Jai Shree Ram |")
-    fmt.Println("  | Jai Shree Ram |  | |                                               | |  | Jai Shree Ram |")
-    fmt.Println("  | Jai Shree Ram |  | ================================================= |  | Jai Shree Ram |")
-    fmt.Println("  | Jai Shree Ram |  =====================================================  | Jai Shree Ram |")
-    fmt.Println("  |_______________|  t.me/o_rohanmaurya_o           ||  COD3D BY ROHAN  ||  |_______________|")
-    fmt.Println("                                                    =====================")
-    fmt.Println("                                                                                         ")
-    fmt.Println("                                                                                         ")
-    fmt.Println("                                                                                         ")
-    fmt.Println("                                                                                         ")
-	if len(os.Args) != 6 {
-		fmt.Println("")
-		fmt.Println("")
-		fmt.Println("Usage: ", os.Args[0], "<url> <threads> <get/post> <seconds> <header.txt/nil>")
-		os.Exit(1)
-	}
-	u, err := url.Parse(os.Args[1])
+
+n() {
+Println("                                                                                         ")
+Println("                                                                                         ")
+Println("   _______________                                                           _______________ ")
+Println("  |               |                                                         |               |")
+Println("  | Jai Shree Ram |  =====================================================  | Jai Shree Ram |")
+Println("  | Jai Shree Ram |  | ================================================= |  | Jai Shree Ram |")
+Println("  | Jai Shree Ram |  | |                                               | |  | Jai Shree Ram |")
+Println("  | Jai Shree Ram |  | |     █████████████████████████████████████     | |  | Jai Shree Ram |")
+Println("  | Jai Shree Ram |  | |     █▄─██─▄█▄─▄▄▀█▄─▄▄▀█▄─▄▄▀█─▄▄─█─▄▄▄▄█     | |  | Jai Shree Ram |")
+Println("  | Jai Shree Ram |  | |     ██─██─███─▄─▄██─██─██─██─█─██─█▄▄▄▄─█     | |  | Jai Shree Ram |")
+Println("  | Jai Shree Ram |  | |     ▀▀▄▄▄▄▀▀▄▄▀▄▄▀▄▄▄▄▀▀▄▄▄▄▀▀▄▄▄▄▀▄▄▄▄▄▀     | |  | Jai Shree Ram |")
+Println("  | Jai Shree Ram |  | |                                               | |  | Jai Shree Ram |")
+Println("  | Jai Shree Ram |  | ================================================= |  | Jai Shree Ram |")
+Println("  | Jai Shree Ram |  =====================================================  | Jai Shree Ram |")
+Println("  |_______________|  t.me/o_rohanmaurya_o           ||  COD3D BY ROHAN  ||  |_______________|")
+Println("                                                    =====================")
+Println("                                                                                         ")
+Println("                                                                                         ")
+Println("                                                                                         ")
+Println("                                                                                         ")
+en(os.Args) != 6 {
+fmt.Println("")
+fmt.Println("")
+fmt.Println("Usage: ", os.Args[0], "<url> <threads> <get/post> <seconds> <header.txt/nil>")
+os.Exit(1)
+
+rr := url.Parse(os.Args[1])
 	if err != nil {
 		println("Please input a correct url")
 	}
